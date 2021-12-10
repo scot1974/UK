@@ -1,0 +1,32 @@
+@import url("bootstrap.min.css");
+@import url("barebones.css");
+
+body{
+    font-family: Cambria, "Times New Roman";
+}
+
+#container-main{
+    min-height: 75vh;
+    padding: 2em 3%;
+}
+
+.navbar{
+    border-radius: 0;
+}
+.footer-nav{
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.data-section{
+    clear: both;
+    border-top: 1px solid #666666;
+}
+.data-section:first-child{
+    border-top: 0px solid transparent;
+}
+
+.data-sheet{
+    padding-top: 3em;
+    padding-bottom: 5em;
+}
